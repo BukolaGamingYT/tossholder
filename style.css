@@ -22,7 +22,7 @@ body{
 }
 
 #preloader{
-    background: linear-gradient(to right, #192382, #6E4880);
+    background: linear-gradient(to right, #0A0A0A, #34263A);
     height: 100%;
     width: 100%;
     position: fixed;
@@ -36,8 +36,15 @@ body{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -75%);
     animation: animateOne -3s linear 3s infinite;
+}
+
+.text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 @keyframes animateOne {
